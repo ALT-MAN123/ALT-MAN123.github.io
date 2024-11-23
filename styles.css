@@ -1,0 +1,135 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    display: inline-block;
+}
+
+header nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    padding: 80px 0;
+    color: white;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#hero .btn {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#hero .btn:hover {
+    background-color: #e04d26;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.game-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game {
+    width: 30%;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.game h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.game p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+form button:hover {
+    background-color: #e04d26;
+}
